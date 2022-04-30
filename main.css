@@ -22,7 +22,7 @@ body {
     left: 0;
     top: 0;
     right: 0;
-    padding: 5px 5px 5px 5px;
+    padding: 0.5em;
     background-color: rgb(131, 131, 131);
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@ body {
 }
 
 .lista-nav_item {
-    padding: 5px;
+    padding: 0.3em;
     font-weight: bold;
 }
 
@@ -77,32 +77,32 @@ body {
 .copyright {
     font-weight: lighter;
     font-size: small;
-    padding-left: 10px;
+    padding-left: 1em;
 }
 
 .imagen-redes {
-    padding: 5px;
-    width: 30px;
+    padding: 0.5em;
+    width: 2.3em;
 }
 /* Fin pie de página */
 
 
 /* Index */
 .index-container {
-    padding-top: 95px;
-    padding-bottom: 60px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-top: 7em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1em;
 }
 .index-item1 {
     align-self: center;
 }
 
 .index-container_foto {
-    height: 200px;
+    height: 15em;
 }
 
 .index-item3 iframe {
@@ -114,18 +114,18 @@ body {
 
 /* Portfolio */
 .portfolio-container {
-    padding-top: 95px;
-    padding-bottom: 70px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-top: 7em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1em;
     align-items: center;
 }
 
 .portfolio-item2 {
-    padding: 10px;
+    padding: 1em;
     text-align: justify;
 }
 
@@ -139,9 +139,9 @@ body {
     width: fit-content;
     border-style: solid;
     border-color: black;
-    padding: 13px 0px;
-    margin: 10px 0px;
-    border-radius: 15px;
+    padding: 1em 0em;
+    margin: 1em 0em;
+    border-radius: 1em;
     text-align: center; 
 }
 
@@ -149,33 +149,33 @@ body {
     text-decoration: none;
     color: black;
     background-color: rgb(182, 182, 182);
-    border-radius: 12px;
-    padding: 13px 25px;
+    border-radius: 1em;
+    padding: 1em 2em;
 }
 
 .lista-portfolio_proyecto-link:hover {
     text-decoration: none;
     background-color: white;
-    border-radius: 12px;
-    padding: 13px 25px;
+    border-radius: 1em;
+    padding: 1em 2em;
 }
 /* Fin portfolio */
 
 
 /* Valoraciones */
 .valoraciones-container {
-    padding-top: 95px;
-    padding-bottom: 70px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-top: 7em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1em;
     align-items: center;
 }
 
 .valoraciones-item2 {
-    padding: 10px;
+    padding: 1em;
     text-align: justify;
 }
 
@@ -185,16 +185,16 @@ body {
     align-items: center;
     font-size: medium;
     font-weight: bold;
-    gap: 10px    ;
+    gap: 1em;
 }
 
 .lista-valoraciones {
-    padding: 10px;
+    padding: 1em;
     text-align: justify;
 }
 
 .lista-valoraciones_titulo {
-    padding-top: 10px;
+    padding-top: 1em;
     font-size: medium;
     font-weight: bold;
 }
@@ -203,18 +203,18 @@ body {
 
 /* Contacto */
 .contacto-container {
-    padding-top: 95px;
-    padding-bottom: 70px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-top: 7em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1em;
     align-items: center;
 }
 
 .contacto-item2 {
-    padding: 10px;
+    padding: 1em;
     text-align: justify;
 }
 
@@ -222,7 +222,7 @@ body {
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1.5em;
     
 }
 
@@ -242,36 +242,36 @@ body {
 }
 
 .input-texto {
-    border: solid black 2px;
+    border: solid black 0.2em;
 }
 
 #boton {
     background: rgb(131, 131, 131);
-    height: 30px;
-    width: 50px;
-    border: solid black 2px;
+    height: 2em;
+    width: 3.5em;
+    border: solid black 0.2em;
 }
 /* Fin contacto */
 
 
 /* Sobre mí */
 .sobremi-container {
-    padding-top: 95px;
-    padding-bottom: 80px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-top: 7em;
+    padding-bottom: 12em;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1em;
     align-items: center;
 }
 
 .sobremi-item2 {
-    padding: 10px;
+    padding: 1em;
     text-align: justify;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1.5em;
 }
 /* Fin sobre mí */
 
@@ -285,21 +285,21 @@ body {
     .header {
         position: static;
         background-color: rgb(131, 131, 131);
-        padding: 0px;   
+        padding: 0em;   
         display: flex;
         flex-direction: row;
         justify-content: space-between;    
     }
 
     .header-container {
-        padding: 15px;
+        padding: 1em;
         display: flex;
         flex-direction: column;
         justify-items: center;  
     }
 
     .lista-nav {
-        height: 100px;
+        height: 7em;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -307,12 +307,12 @@ body {
     }
 
     .lista-nav_item {
-        padding: 18px;
+        padding: 1.1em;
         font-weight: bold;
     }
 
     .lista-nav_item-link {
-        font-size: 20px;
+        font-size: 1.3em;
         color: black;
     }
     /* Fin menú de navegación */
@@ -327,15 +327,15 @@ body {
 
     /* Index */
     .index-container {
-        padding: 10px;
-        padding-bottom: 30px;
+        padding: 1em;
+        padding-bottom: 2em;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;   
+        gap: 1.5em;   
     }
 
     .index-container_foto {
-        height: 450px;
+        height: 25em;
     }
 
     .index-item1 {
@@ -352,14 +352,14 @@ body {
 
     /* Portfolio */
     .portfolio-container {
-        font-size: 20px;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
+        font-size: 1.3em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 1em;
         align-items: flex-start;
     }
     /* Fin portfolio */
@@ -367,19 +367,19 @@ body {
 
     /* Valoraciones */
     .valoraciones-container {
-        font-size: 20px;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
+        font-size: 1.3em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 1em;
         align-items: flex-start;
     }
 
     .valoraciones-item3 {
-        font-size: 18px;
+        font-size: 1em;
         align-self: center;
     }
     /* Fin valoraciones */
@@ -387,14 +387,14 @@ body {
 
     /* Contacto */
     .contacto-container {
-        font-size: 20px;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
+        font-size: 1.3em;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 1em;
         align-items: flex-start;
     }
 
@@ -406,20 +406,20 @@ body {
 
     /* Sobre mí */
     .sobremi-container {
-        font-size: 20px;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
+        font-size: 1.3em;
+        padding-top: 1em;
+        padding-bottom: 5.5em;
+        padding-left: 1em;
+        padding-right: 1em;
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 1em;
         align-items: flex-start;
     }
     .sobremi-item2 {
-        padding-left: 50px;
-        padding-right: 50px;
-        gap: 50px;
+        padding-left: 3em;
+        padding-right: 3em;
+        gap: 3em;
     }
 }
 
@@ -430,36 +430,29 @@ body {
 @media screen and (min-width:1024px) {
     
     /* Menú de navegación */
-    .header-container {
-        font-size: 22px; 
-    }
-
-    .lista-nav_item {
-        padding: 20px;
-    }
-
-    .lista-nav_item-link {
-        font-size: 25px;
+     .lista-nav_item {
+        padding: 2.2em;
     }
     /* Fin menú de navegación */
+
 
     /* Pie de página */
     .copyright {
         font-size: medium;
-        padding-left: 15px;
+        padding-left: 1em;
     }
 
     .imagen-redes {
-        padding: 15px;
-        width: 40px;
+        padding: 1em;
+        width: 2.5em;
     }
     /* Fin pie de página */
 
 
     /* Index */
     .index-container {
-        padding: 50px;
-        padding-bottom: 60px;  
+        padding: 5em;
+        padding-bottom: 8em;  
     }
 
     .index-item1 {
@@ -476,40 +469,32 @@ body {
 
     /* Portfolio */
     .portfolio-container {
-        font-size: 25px;
-        padding-top: 40px;
-        padding-bottom: 50px;
+        padding-left: 2em;
+        padding-right: 2em;
     }
     /* Fin portfolio */
 
 
     /* Valoraciones */
     .valoraciones-container {
-        font-size: 25px;
-        padding-top: 40px;
-        padding-bottom: 60px;
-    }
-
-    .valoraciones-item3 {
-        font-size: 25px;
+        padding-left: 2em;
+        padding-right: 2em;
     }
     /* Fin valoraciones */
 
 
     /* Contacto */
     .contacto-container {
-        font-size: 25px;
-        padding-top: 40px;
-        padding-bottom: 50px;
+        padding-left: 2em;
+        padding-right: 2em;
     }
     /* Fin contacto */
 
 
     /* Sobre mí */
     .sobremi-container {
-        font-size: 25px;
-        padding-top: 40px;
-        padding-bottom: 90px;
+        padding-left: 2em;
+        padding-right: 2em;
     }
     /* Fin sobre mí */
 }
