@@ -8,7 +8,7 @@
 	outline: none;
 }
 body {
-    background-image: url(./img/background1.jpg);
+    background-image: url(./img/background.jpg);
     background-size: cover;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -504,3 +504,64 @@ body {
     }
     /* Fin sobre mí */
 }
+
+/* Animaciones */
+.lista-portfolio {
+    animation-name: translate;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+    @keyframes translate {
+        0% {
+            transform: translateX(300px);
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: .5;
+        }
+    
+        100% {
+            transform: translateX (0px);
+            opacity: 1;
+        }      
+    }
+
+.index-container_foto {
+    animation-name: fadein;
+    animation-duration: 1s;
+}
+
+.portfolio-item1 {
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+.valoraciones-item1 {
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+.contacto-item1 {
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+.sobremi-item1 {
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
