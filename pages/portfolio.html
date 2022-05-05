@@ -11,6 +11,9 @@
 <!-- ícono de página -->
     <link rel="shortcut icon" href="../img/CV Foto.jpg" type="image/x-icon">
 
+<!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 <!-- CSS estilo -->
     <link rel="stylesheet" href="../main.css">
 
@@ -24,37 +27,64 @@
 <body>
 
 <!-- Menú de navegación y Título-->
-    <header class="header">
-        <div class="header-container">
-            <h1>Heber Vela  </h1>
-            <p>Desarrollador Web</p>
-        </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
             
-        <nav>
-            <ul class="lista-nav">
-                    <li class="lista-nav_item"><a class="lista-nav_item-link" href="../index.html">Inicio</a></li>
-                    <li class="lista-nav_item"><a class="lista-nav_item-link" href="portfolio.html">Portfolio</a></li>
-                    <li class="lista-nav_item"><a class="lista-nav_item-link" href="valoraciones.html">Valoraciones</a></li>
-                    <li class="lista-nav_item"><a class="lista-nav_item-link" href="contacto.html">Contacto</a></li>
-                    <li class="lista-nav_item"><a class="lista-nav_item-link" href="sobremi.html">Sobre mí</a></li>
-            </ul>   
-        </nav>
+            <div class= "container-fluid ">
+              <div class="titulo">
+                <h1>Heber Vela</h1>
+                <p>Desarrollador Web</p>
+              </div>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto ">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="valoraciones.html">Valoraciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobremi.html">Sobre mí</a>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+          </nav>
     </header>
 <!-- Fin menú de navegación y Título-->
 
-<!-- Contenido princpal -->
-    <main class="portfolio-container">
-        <h1 class="portfolio-item1">Portfolio</h1>
 
-        <p class="portfolio-item2">Los proyectos a continuación son producto de equipos de trabajo en los cuáles tuve participación. Haciendo click en los enlaces podrá ver cada uno de ellos en detalle.</p>
+<!-- Contenido princpal -->
+    <main>
+      <div class="container main-container">
+
+        <div class="row">
+        
+          <h1 class="portfolio-item1">Portfolio</h1>
+
+          <p class="portfolio-item2">Los proyectos a continuación son producto de equipos de trabajo en los cuáles tuve participación. Haciendo click en los enlaces podrá ver cada uno de ellos en detalle.</p>
         
 
-        <ul class="lista-portfolio">
+          <ul class="lista-portfolio">
             <li class="lista-porfolio_proyecto"><a class="lista-portfolio_proyecto-link" href="" target="blank">Proyecto 1</a></li>
             <li class="lista-porfolio_proyecto"><a class="lista-portfolio_proyecto-link" href="" target="blank1">Proyecto 2</a></li>
             <li class="lista-porfolio_proyecto"><a class="lista-portfolio_proyecto-link" href="" target="blank2">Proyecto 3</a></li>
             <li class="lista-porfolio_proyecto"><a class="lista-portfolio_proyecto-link" href="" target="blank3">Proyecto 4</a></li>
-        </ul>
+          </ul>
+        </div> 
+
+      </div>
     </main>
 <!-- Fin contenido principal -->
 
@@ -69,8 +99,13 @@
             <a href="https://www.instagram.com/vela.heber/" target="blank2"><img class="imagen-redes" src="../img/instagram.png" alt="instagram"></a>
             <a href="https://www.linkedin.com/in/velaheber/" target="blank3"><img class="imagen-redes" src="../img/linkedin.png" alt="linkedin"></a>
         </div>
+
     </footer>
 <!-- Fin pie de página -->
+
+
+<!-- Link JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 
