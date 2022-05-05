@@ -27,41 +27,94 @@
 <body>
 
 <!-- Menú de navegación y Título-->
-    <header class="header">
-        <div class="header-container">
-            <h1 class="titulo">Heber Vela  </h1>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+        <div class= "container-fluid ">
+
+          <div class="titulo">
+            <h1>Heber Vela</h1>
             <p>Desarrollador Web</p>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="valoraciones.html">Valoraciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="sobremi.html">Sobre mí</a>
+              </li>
+            </ul>
+          </div>
+
         </div>
-            
-        <nav>
-            <ul class="lista-nav">
-                <li class="lista-nav_item"><a class="lista-nav_item-link" href="../index.html">Inicio</a></li>
-                <li class="lista-nav_item"><a class="lista-nav_item-link" href="portfolio.html">Portfolio</a></li>
-                <li class="lista-nav_item"><a class="lista-nav_item-link" href="valoraciones.html">Valoraciones</a></li>
-                <li class="lista-nav_item"><a class="lista-nav_item-link" href="contacto.html">Contacto</a></li>
-                <li class="lista-nav_item"><a class="lista-nav_item-link" href="sobremi.html">Sobre mí</a></li>
-            </ul>  
-        </nav>
-    </header>
+    </nav>
+</header>
 <!-- Fin menú de navegación y Título-->
 
 
 <!-- Contenido principal -->
-    <main class="sobremi-container">
+    <main>
+      <div class="container main-container">
+
         <h1 class="sobremi-item1">Sobre mí</h1>
 
-        <div class="sobremi-item2">
-            <p class="texto-sobremi">🙍‍♂️Organizado y competente. Amable y cooperativo. Facilidad para desenvolverse en entornos sociales.</p>
-            <p class="texto-sobremi">⚽Hincha del Club Atlético Belgrano de Córdoba. Soy un tronco en la cancha pero me gusta jugar</p>
-            <p class="texto-sobremi">💙Gusto por la cerveza y el fernet. Toco la guitarra más o menos. Me gusta la lluvia, el frío y dormir.</p>
-            <p class="texto-sobremi">📚Interesado en el campo de la comunicación institucional, la tecnología y la programación.</p>
+        <div class="row justify-content-evenly p-0 sobremi-item2">
+          <div class="col-md-4 p-0 card" style="width: 20rem;">
+            <img src="../img/sobremi.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Sobre mí</h5>
+              <p class="card-text text-white">🙍‍♂️ Organizado y competente. Amable y cooperativo. Facilidad para desenvolverse en entornos sociales.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 p-0 card" style="width: 20rem;">
+            <img src="../img/hobbies.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Hobbies</h5>
+              <p class="card-text text-white">🎮 Juego videojuegos en pc y en celular. Toco la guitarra más o menos. Dormir cuenta como hobbie?</p>
+            </div>
+          </div>
         </div>
+
+        <div class="row justify-content-evenly p-0 sobremi-item2">
+          <div class="col-md-4 p-0 card" style="width: 20rem;">
+            <img src="../img/gustos.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Gustos</h5>
+              <p class="card-text text-white">💙 Hincha del Club Atlético Belgrano de Córdoba. Gusto por la cerveza y el fernet. La lluvia y el frío.</p>
+            </div>
+          </div>
+  
+          <div class="col-md-4 p-0 card" style="width: 20rem;">
+            <img src="../img/intereses.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-white">Intereses</h5>
+              <p class="card-text text-white">📚 Interesado en el campo de la comunicación institucional, la tecnología y la programación.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </main>
 <!-- Fin contenido principal -->
 
 
 <!-- Pie de página -->
     <footer class="footer-container">
+
         <h4 class="copyright">©2022 by Heber Vela</h4>
 
         <div class="footer-container_redes">
@@ -69,8 +122,10 @@
             <a href="https://www.instagram.com/vela.heber/" target="blank2"><img class="imagen-redes" src="../img/instagram.png" alt="instagram"></a>
             <a href="https://www.linkedin.com/in/velaheber/" target="blank3"><img class="imagen-redes" src="../img/linkedin.png" alt="linkedin"></a>
         </div>
+
     </footer>
 <!-- Fin pie de página -->
+
 
 <!-- Link JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
