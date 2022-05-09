@@ -1,0 +1,54 @@
+/* Configuración tablet responsive*/
+
+@media screen and (min-width:768px) {
+
+/* Pie de página */
+.footer-container {
+    margin-top: 9em;
+}
+/* Fin pie de página */
+
+
+/* Index */
+.index-container_foto {
+    height: 20em;
+}
+/* Fin index */
+}
+
+
+/* Configuración desktop responsive*/
+
+@media screen and (min-width:1024px) {
+
+/* Pie de página */
+.footer-container {
+    margin-top: 7.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    .copyright {
+        font-size: medium;
+    }
+
+    .imagen-redes {
+        width: 3em;
+    }
+}
+/* Fin pie de página */
+
+
+/* Index */
+.index-container_foto {
+    height: 23em;
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+    
+/* Pie de página */
+.footer-container {
+    margin-top: 0em;
+    }
+}
