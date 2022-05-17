@@ -1,4 +1,25 @@
 @charset "UTF-8";
+.color-primary {
+  background-color: #326dee; }
+
+.color-secondary {
+  background-color: #1ac888; }
+
+.color-azul {
+  background-color: #1919e6; }
+
+.color-rojo {
+  background-color: #e61619; }
+
+.color-verde {
+  background-color: #19e635; }
+
+.color-violeta {
+  background-color: #9900ff; }
+
+.color-dark {
+  background-color: #212529; }
+
 * {
   margin: 0;
   padding: 0;

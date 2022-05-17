@@ -10,6 +10,13 @@ $colors: (
     "dark": rgb(33, 37, 41),
 );
 
+@each $key, $color in $colors {
+    .color-#{$key} {
+        background-color: $color;
+    }
+    
+}
+
 // Mixin
 
 @mixin estilo-titulo {
