@@ -1,7 +1,7 @@
 {
   "name": "proyecto-hebervela",
   "version": "1.0.0",
-  "description": "",
+  "description": "Index // Descripción agregada. Keywords agregados. Corregido el favicon. Título cambiado.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

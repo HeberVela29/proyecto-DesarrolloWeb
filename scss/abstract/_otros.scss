@@ -1,0 +1,19 @@
+// Map
+
+$colors: (
+    "primary": #326dee,
+    "secondary": #1ac888,
+    "azul": #1919e6,
+    "rojo": #e61619,
+    "verde": #19e635,
+    "violeta": #9900ff,
+    "dark": rgb(33, 37, 41),
+);
+
+// Mixin
+
+@mixin estilo-titulo {
+    color: $dark;
+    font-size: 40px;
+    font-weight: bold;
+  }

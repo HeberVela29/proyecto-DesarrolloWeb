@@ -1,7 +1,9 @@
-@import "variables";
+@import "./abstract/variables";
+@import "./abstract/otros";
 @import "reset&general";
 @import "header";
 @import "principal";
 @import "footer";
 @import "animaciones";
 @import "mediaqueries";
+

@@ -7,6 +7,12 @@
 
 
 /* Index */
+.index-item1{
+    @extend .contacto-item1;
+    color: white !important;
+
+}
+
 .index-container_foto {
     height: 15em;
 }
@@ -19,6 +25,10 @@
 
 
 /* Portfolio */
+.portfolio-item1 {
+    @include estilo-titulo;
+}
+
 .portfolio-item2 {
     text-align: justify;
 }
@@ -31,7 +41,7 @@
     .lista-porfolio_proyecto {
         width: fit-content;
         border-style: solid;
-        border-color: $color-dark;
+        border-color: map-get($colors, azul);
         padding: 0.9em 0em;
         margin: 1em;
         border-radius: 1em;
@@ -39,10 +49,10 @@
         
         .lista-portfolio_proyecto-link {
             text-decoration: none;
-            color: $color-dark;
-            background-color: rgb(200, 200, 200);
-            border-radius: 1em;
-            padding: 1em 2em;
+            color: $dark;
+            background-color: map-get($colors, violeta);
+            border-radius: 0.9em;
+            padding: 1.1em 2em;
 
             &:hover {
                 text-decoration: none;
@@ -58,6 +68,10 @@
 
 
 /* Valoraciones */
+.valoraciones-item1 {
+    @include estilo-titulo;
+}
+
 .valoraciones-item2 {
     text-align: justify;
 }
@@ -87,6 +101,10 @@
 
 
 /* Contacto */
+.contacto-item1 {
+    @include estilo-titulo;
+}
+
 .contacto-item2 {
     text-align: justify;
 }
@@ -94,6 +112,10 @@
 
 
 /* Sobre mí */
+.sobremi-item1 {
+    @include estilo-titulo;
+}
+
 .sobremi-item2 {
     margin-top: 2em;
     gap: 2em;

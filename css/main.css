@@ -22,6 +22,9 @@
   margin-bottom: 4em; }
 
 /* Index */
+.index-item1 {
+  color: white !important; }
+
 .index-container_foto {
   height: 15em; }
 
@@ -31,6 +34,11 @@
 
 /* Fin index */
 /* Portfolio */
+.portfolio-item1 {
+  color: #212529;
+  font-size: 40px;
+  font-weight: bold; }
+
 .portfolio-item2 {
   text-align: justify; }
 
@@ -41,7 +49,7 @@
   .lista-portfolio .lista-porfolio_proyecto {
     width: fit-content;
     border-style: solid;
-    border-color: #212529;
+    border-color: #1919e6;
     padding: 0.9em 0em;
     margin: 1em;
     border-radius: 1em;
@@ -49,9 +57,9 @@
     .lista-portfolio .lista-porfolio_proyecto .lista-portfolio_proyecto-link {
       text-decoration: none;
       color: #212529;
-      background-color: #c8c8c8;
-      border-radius: 1em;
-      padding: 1em 2em; }
+      background-color: #9900ff;
+      border-radius: 0.9em;
+      padding: 1.1em 2em; }
       .lista-portfolio .lista-porfolio_proyecto .lista-portfolio_proyecto-link:hover {
         text-decoration: none;
         background-color: white;
@@ -59,6 +67,11 @@
 
 /* Fin portfolio */
 /* Valoraciones */
+.valoraciones-item1 {
+  color: #212529;
+  font-size: 40px;
+  font-weight: bold; }
+
 .valoraciones-item2 {
   text-align: justify; }
 
@@ -82,11 +95,21 @@
 
 /* Fin valoraciones */
 /* Contacto */
+.contacto-item1, .index-item1 {
+  color: #212529;
+  font-size: 40px;
+  font-weight: bold; }
+
 .contacto-item2 {
   text-align: justify; }
 
 /* Fin contacto */
 /* Sobre mí */
+.sobremi-item1 {
+  color: #212529;
+  font-size: 40px;
+  font-weight: bold; }
+
 .sobremi-item2 {
   margin-top: 2em;
   gap: 2em;
@@ -138,7 +161,7 @@
   animation-name: fadein;
   animation-duration: 2s; }
 
-.contacto-item1 {
+.contacto-item1, .index-item1 {
   animation-name: fadein;
   animation-duration: 2s; }
 
