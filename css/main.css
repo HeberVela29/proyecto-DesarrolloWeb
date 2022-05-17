@@ -23,7 +23,7 @@
 
 /* Index */
 .index-item1 {
-  color: white !important; }
+  color: white; }
 
 .index-container_foto {
   height: 15em; }
@@ -35,7 +35,6 @@
 /* Fin index */
 /* Portfolio */
 .portfolio-item1 {
-  color: #212529;
   font-size: 40px;
   font-weight: bold; }
 
@@ -68,7 +67,6 @@
 /* Fin portfolio */
 /* Valoraciones */
 .valoraciones-item1 {
-  color: #212529;
   font-size: 40px;
   font-weight: bold; }
 
@@ -96,7 +94,6 @@
 /* Fin valoraciones */
 /* Contacto */
 .contacto-item1, .index-item1 {
-  color: #212529;
   font-size: 40px;
   font-weight: bold; }
 
@@ -106,7 +103,6 @@
 /* Fin contacto */
 /* Sobre mí */
 .sobremi-item1 {
-  color: #212529;
   font-size: 40px;
   font-weight: bold; }
 
