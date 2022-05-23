@@ -33,37 +33,25 @@
     text-align: justify;
 }
 
-.lista-portfolio {
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
+.portfolio-link {
+    color: $dark;
+    text-decoration: none;
+    @include estilo-proyecto;
 
-    .lista-porfolio_proyecto {
-        width: fit-content;
-        border-style: solid;
-        border-color: map-get($colors, azul);
-        padding: 0.9em 0em;
-        margin: 1em;
-        border-radius: 1em;
-        text-align: center;
-        
-        .lista-portfolio_proyecto-link {
-            text-decoration: none;
-            color: $dark;
-            background-color: map-get($colors, violeta);
-            border-radius: 0.9em;
-            padding: 1.1em 2em;
-
-            &:hover {
-                text-decoration: none;
-                background-color: white;
-                border-radius: 1em;
-            }
-        }
-
-        
+    &:hover {
+        color: map-get($colors, blanco);
+        -webkit-text-stroke: 1.5px black;
     }
 }
+
+.imagen-proyecto {
+    max-width: 25em;
+    padding: 0;
+    border: solid 2px $dark;
+    border-radius: 0.5em;
+}
+
+
 /* Fin portfolio */
 
 

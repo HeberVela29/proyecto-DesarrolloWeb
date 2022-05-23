@@ -7,6 +7,7 @@ $colors: (
     "rojo": #e61619,
     "verde": #19e635,
     "violeta": #9900ff,
+    "blanco": #ffff,
     "dark": rgb(33, 37, 41),
 );
 
@@ -23,3 +24,8 @@ $colors: (
     font-size: 40px;
     font-weight: bold;
   }
+
+@mixin estilo-proyecto {
+    font-size: 30px;
+    font-weight: bold;
+}
