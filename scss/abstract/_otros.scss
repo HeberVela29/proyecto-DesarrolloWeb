@@ -29,3 +29,8 @@ $colors: (
     font-size: 30px;
     font-weight: bold;
 }
+
+@mixin estilo-texto {
+    text-align: justify;
+    font-weight: bold;
+}

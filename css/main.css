@@ -52,9 +52,9 @@
 .index-container_foto {
   height: 15em; }
 
-.youtube {
-  height: 100%;
-  width: 100%; }
+.index-texto {
+  text-align: justify;
+  font-weight: bold; }
 
 /* Fin index */
 /* Portfolio */
@@ -63,7 +63,8 @@
   font-weight: bold; }
 
 .portfolio-item2 {
-  text-align: justify; }
+  text-align: justify;
+  font-weight: bold; }
 
 .portfolio-link {
   color: #212529;
@@ -87,7 +88,8 @@
   font-weight: bold; }
 
 .valoraciones-item2 {
-  text-align: justify; }
+  text-align: justify;
+  font-weight: bold; }
 
 .valoraciones-item3 {
   display: flex;
@@ -100,11 +102,12 @@
 
 .lista-valoraciones {
   padding: 1em;
-  text-align: justify; }
+  text-align: justify;
+  font-weight: bold; }
   .lista-valoraciones .lista-valoraciones_titulo {
     text-align: center;
     padding-top: 1em;
-    font-size: medium;
+    font-size: large;
     font-weight: bold; }
 
 /* Fin valoraciones */
@@ -114,7 +117,8 @@
   font-weight: bold; }
 
 .contacto-item2 {
-  text-align: justify; }
+  text-align: justify;
+  font-weight: bold; }
 
 /* Fin contacto */
 /* Sobre mí */
@@ -129,6 +133,9 @@
 
 /* Fin sobre mí */
 .footer-container {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
   background-color: #212529;
   display: flex;
   flex-direction: row;
@@ -142,8 +149,8 @@
     margin: 0; }
   .footer-container .imagen-redes {
     filter: invert(97%) sepia(52%) saturate(318%) hue-rotate(301deg) brightness(104%) contrast(101%);
-    padding: 0.5em;
-    width: 3em; }
+    padding-left: 0.5em;
+    width: 2.4em; }
 
 .lista-portfolio {
   animation-name: translate;
@@ -191,7 +198,8 @@
 @media screen and (min-width: 768px) {
   /* Pie de página */
   .footer-container {
-    margin-top: 9em; }
+    margin-top: 9em;
+    padding-right: 2em; }
   /* Fin pie de página */
   /* Index */
   .index-container_foto {
@@ -204,10 +212,11 @@
   .footer-container {
     margin-top: 7.5em;
     padding-left: 2em;
-    padding-right: 2em; }
+    padding-right: 3em; }
     .footer-container .copyright {
       font-size: medium; }
     .footer-container .imagen-redes {
+      margin-left: 0.5em;
       width: 3em; }
   /* Fin pie de página */
   /* Index */

@@ -17,9 +17,8 @@
     height: 15em;
 }
 
-.youtube {
-    height:100%;
-    width:100%;
+.index-texto {
+    @include estilo-texto
 }
 /* Fin index */
 
@@ -30,7 +29,7 @@
 }
 
 .portfolio-item2 {
-    text-align: justify;
+    @include estilo-texto
 }
 
 .portfolio-link {
@@ -61,7 +60,7 @@
 }
 
 .valoraciones-item2 {
-    text-align: justify;
+    @include estilo-texto
 }
 
 .valoraciones-item3 {
@@ -76,12 +75,12 @@
 
 .lista-valoraciones {
     padding: 1em;
-    text-align: justify;
+    @include estilo-texto;
 
     .lista-valoraciones_titulo {
         text-align: center;
         padding-top: 1em;
-        font-size: medium;
+        font-size: large;
         font-weight: bold;
     }
 }
@@ -94,7 +93,7 @@
 }
 
 .contacto-item2 {
-    text-align: justify;
+    @include estilo-texto
 }
 /* Fin contacto */
 

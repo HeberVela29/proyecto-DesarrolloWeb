@@ -1,5 +1,8 @@
 
 .footer-container {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
     background-color: $dark;
     display: flex;
     flex-direction: row;
@@ -16,8 +19,8 @@
 
     .imagen-redes {
         filter: invert(97%) sepia(52%) saturate(318%) hue-rotate(301deg) brightness(104%) contrast(101%);
-        padding: 0.5em;
-        width: 3em;
+        padding-left: 0.5em;
+        width: 2.4em;
     } 
 }
 
